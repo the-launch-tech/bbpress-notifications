@@ -1,0 +1,47 @@
+{
+  "name": "bbpress-notifications",
+  "version": "1.0.0",
+  "description": "Better and simple notifications system for bbpress",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "export NODE_ENV=development && webpack --config webpack.config.js --watch",
+    "prod": "export NODE_ENV=production && webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-launch-tech/bbpress-notifications.git"
+  },
+  "keywords": [
+    "BBPress",
+    "Wordpress",
+    "Plugin"
+  ],
+  "author": "Daniel Griffiths",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-launch-tech/bbpress-notifications/issues"
+  },
+  "homepage": "https://github.com/the-launch-tech/bbpress-notifications#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.2",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
